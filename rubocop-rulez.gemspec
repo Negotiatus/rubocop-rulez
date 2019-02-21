@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "negotiatus/style/version"
+require "rubocop_rulez/style/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "negotiatus-style"
-  spec.version       = Negotiatus::Style::VERSION
+  spec.name          = "rubocop-rulez"
+  spec.version       = RubocopRulez::Style::VERSION
   spec.authors       = ["Negotiatus"]
   spec.email         = ["hello@negotiatus.com"]
 
-  spec.summary       = 'Negotiatus style guides and shared style configs.'
-  spec.homepage      = 'https://github.com/negotiatus/negotiatus-style'
+  spec.summary       = 'Negotiatus shared Rubocop style configs.'
+  spec.homepage      = 'https://github.com/negotiatus/rubocop-rulez'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.

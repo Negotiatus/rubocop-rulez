@@ -8,7 +8,7 @@
 
 ```bash
 bundle exec rake build
-gem push pkg/negotiatus-style-X.XX.XX.gem
+gem push pkg/rubocop-rulez-X.XX.XX.gem
 ```
 
 * Announce the new release,

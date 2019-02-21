@@ -1,6 +1,6 @@
-# negotiatus-style
+# rubocop-rulez
 
-Negotiatus shared style configs.
+Negotiatus' shared Rubocop styling configuration.
 
 ## Installation
 
@@ -8,14 +8,14 @@ Add this line to your application's Gemfile:
 
 ```ruby
 group :test, :development do
-  gem 'negotiatus-style'
+  gem 'rubocop-rulez'
 end
 ```
 
 Or, for a Ruby library, add this to your gemspec:
 
 ```ruby
-spec.add_development_dependency 'negotiatus-style'
+spec.add_development_dependency 'rubocop-rulez'
 ```
 
 And then run:
@@ -30,7 +30,7 @@ Create a `.rubocop.yml` with the following directives:
 
 ```yaml
 inherit_gem:
-  negotiatus-style:
+  rubocop-rulez:
     - default.yml
 ```
 
@@ -40,4 +40,4 @@ Now, run:
 $ bundle exec rubocop
 ```
 
-You do not need to include rubocop directly in your application's dependencies. `negotiatus-style` will include a specific version of `rubocop` and `rubocop-rspec` that is shared across all projects.
+You do not need to include rubocop directly in your application's dependencies. `rubocop-rulez` will include a specific version of `rubocop` and `rubocop-rspec` that is shared across all projects.

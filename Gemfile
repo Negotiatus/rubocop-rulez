@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify dependencies in negotiatus-style.gemspec
+# Specify dependencies in rubocop-rulez.gemspec
 gemspec
