@@ -1,0 +1,165 @@
+inherit_from:
+  - .rubocop_airbnb.yml
+
+AllCops:
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'tmp/**/*'
+    - 'ssl_certificates/**/*'
+    - 'bin/**/*'
+
+Metrics/BlockLength:
+  Enabled: true
+  Exclude:
+    - spec/*
+    - spec/**
+    - spec/**/**
+
+Metrics/LineLength:
+  Exclude:
+    - spec/*
+    - spec/**
+    - spec/**/**
+  Max: 150
+
+Airbnb/RspecDescribeOrContextUnderNamespace:
+  Enabled: false
+
+Airbnb/ContinuationSlash:
+  Enabled: false
+
+Airbnb/RspecEnvironmentModification:
+  Enabled: false
+
+Style/EmptyCaseCondition:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Layout/AlignHash:
+  EnforcedColonStyle: table
+
+Layout/IndentHash:
+  EnforcedStyle: consistent
+
+Layout/EmptyLineAfterGuardClause:
+  Enabled: true
+
+AllCops:
+  TargetRubyVersion: 2.3
+
+Style/TrailingCommaInArrayLiteral:
+  Enabled: false
+
+Style/TrailingCommaInHashLiteral:
+  Enabled: false
+
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+
+Style/WordArray:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: false
+
+Metrics/BlockNesting:
+  Max: 3
+
+Lint/AmbiguousOperator:
+  Enabled: false
+
+Lint/AmbiguousRegexpLiteral:
+  Enabled: false
+
+Lint/ParenthesesAsGroupedExpression:
+  Enabled: false
+
+Lint/UnusedBlockArgument:
+  Enabled: false
+
+Layout/EndAlignment:
+  EnforcedStyleAlignWith: keyword
+
+Lint/UnusedMethodArgument:
+  Enabled: false
+
+Style/SingleLineBlockParams:
+  Enabled: false
+
+Style/StringLiteralsInInterpolation:
+  Enabled: false
+
+Style/AndOr:
+  Enabled: false
+
+Style/SignalException:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: false
+
+Style/BracesAroundHashParameters:
+  Enabled: false
+
+Style/NumericLiterals:
+  Enabled: false
+
+Layout/SpaceBeforeBlockBraces:
+  Enabled: true
+
+Layout/SpaceInsideBlockBraces:
+  Enabled: true
+
+Style/Documentation:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/FormatString:
+  Enabled: false
+
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
+Layout/MultilineOperationIndentation:
+  EnforcedStyle: indented
+
+Layout/DotPosition:
+  EnforcedStyle: leading
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Style/RaiseArgs:
+  Enabled: false
+
+Style/PreferredHashMethods:
+  Enabled: false
+
+Style/RegexpLiteral:
+  Enabled: false
+
+Style/SymbolLiteral:
+  Enabled: false
+
+Performance/Count:
+  Enabled: false
+
+Naming/ConstantName:
+  Enabled: false
+
+Layout/CaseIndentation:
+  Enabled: false
+
+Style/ClassVars:
+  Enabled: false
+
+Style/PerlBackrefs:
+  Enabled: false
+
+Style/TrivialAccessors:
+  AllowPredicates: true
