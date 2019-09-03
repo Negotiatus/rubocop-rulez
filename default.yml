@@ -26,6 +26,9 @@ Metrics/LineLength:
 Airbnb/RspecDescribeOrContextUnderNamespace:
   Enabled: false
 
+Airbnb/ClassName:
+  Enabled: false
+
 Airbnb/ContinuationSlash:
   Enabled: false
 
