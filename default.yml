@@ -125,6 +125,9 @@ Style/FormatString:
 Layout/AlignParameters:
   EnforcedStyle: with_fixed_indentation
 
+Layout/ExtraSpacing:
+  ForceEqualSignAlignment: true
+
 Layout/MultilineOperationIndentation:
   EnforcedStyle: indented
 
