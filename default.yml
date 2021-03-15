@@ -48,9 +48,6 @@ Layout/IndentFirstHashElement:
 Layout/EmptyLineAfterGuardClause:
   Enabled: true
 
-AllCops:
-  TargetRubyVersion: 2.6
-
 Style/TrailingCommaInArrayLiteral:
   Enabled: false
 
