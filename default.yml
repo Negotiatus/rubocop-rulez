@@ -41,11 +41,14 @@ Style/FrozenStringLiteralComment:
 Layout/AlignHash:
   EnforcedColonStyle: table
 
+Layout/IndentHash:
+  EnforcedStyle: consistent
+
 Layout/EmptyLineAfterGuardClause:
   Enabled: true
 
 AllCops:
-  TargetRubyVersion: 2.3
+  TargetRubyVersion: 2.6
 
 Style/TrailingCommaInArrayLiteral:
   Enabled: false
