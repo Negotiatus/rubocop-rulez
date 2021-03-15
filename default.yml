@@ -41,9 +41,6 @@ Style/FrozenStringLiteralComment:
 Layout/AlignHash:
   EnforcedColonStyle: table
 
-Layout/IndentHash:
-  EnforcedStyle: consistent
-
 Layout/EmptyLineAfterGuardClause:
   Enabled: true
 
