@@ -8,6 +8,7 @@ AllCops:
     - 'tmp/**/*'
     - 'ssl_certificates/**/*'
     - 'bin/**/*'
+  TargetRubyVersion: 2.6
 
 Metrics/BlockLength:
   Enabled: true
@@ -41,14 +42,11 @@ Style/FrozenStringLiteralComment:
 Layout/AlignHash:
   EnforcedColonStyle: table
 
-Layout/IndentHash:
+Layout/IndentFirstHashElement:
   EnforcedStyle: consistent
 
 Layout/EmptyLineAfterGuardClause:
   Enabled: true
-
-AllCops:
-  TargetRubyVersion: 2.6
 
 Style/TrailingCommaInArrayLiteral:
   Enabled: false
