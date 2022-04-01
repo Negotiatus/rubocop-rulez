@@ -1,13 +1,15 @@
 inherit_from:
   - .rubocop_airbnb.yml
+  - .rubocop_rspec.yml
+  - .rubocop_rails.yml
 
 AllCops:
   Exclude:
-    - 'db/**/*'
-    - 'config/**/*'
-    - 'tmp/**/*'
-    - 'ssl_certificates/**/*'
-    - 'bin/**/*'
+    - "db/**/*"
+    - "config/**/*"
+    - "tmp/**/*"
+    - "ssl_certificates/**/*"
+    - "bin/**/*"
   TargetRubyVersion: 2.6
 
 Metrics/BlockLength:

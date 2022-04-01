@@ -29,4 +29,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "rubocop-airbnb", "~> 3.0.2"
+  spec.add_dependency "rubocop-rails"
+  spec.add_dependency "rubocop-rspec"
 end
